@@ -14,11 +14,6 @@ on:
         required: True
         default: dev
 
-      version:
-        description: 'Release version or tag'
-        type: string
-        required: true
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
